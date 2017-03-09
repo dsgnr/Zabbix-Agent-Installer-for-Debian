@@ -5,7 +5,7 @@
 ##### Zabbix-agent install script for Debian
 
 
-# Define colors for output
+# Define colours for output
 green=`tput setaf 2`
 
 
