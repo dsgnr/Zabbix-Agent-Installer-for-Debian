@@ -20,4 +20,4 @@ echo "!V(xfg^7$&)!11&$Z0yt10Kh" > /etc/zabbix/zabbix_agentd.psk
 service zabbix-agent restart
 EOF
 
-done <host-pass.txt
+done <hosts.txt
