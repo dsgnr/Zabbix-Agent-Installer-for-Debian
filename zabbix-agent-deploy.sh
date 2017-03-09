@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # @author: Daniel Hand
-# https://www.danielhand.io
 #!/bin/bash -e
 
 ##### Zabbix-agent install script for Debian
