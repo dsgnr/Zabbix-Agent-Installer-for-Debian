@@ -37,7 +37,7 @@ sed -i '321s|# TLSConnect=unencrypted|TLSConnect=psk|' /etc/zabbix/zabbix_agentd
 sed -i '332s|# TLSAccept=unencrypted|TLSAccept=psk|' /etc/zabbix/zabbix_agentd.conf
 sed -i '382s|# TLSPSKIdentity=|TLSPSKIdentity=psk|' /etc/zabbix/zabbix_agentd.conf
 sed -i '389s|# TLSPSKFile=|TLSPSKFile=/etc/zabbix/zabbix_agentd.psk|' /etc/zabbix/zabbix_agentd.conf
-echo "lpl2cYjegL09U1OA31G6dXC2" > /etc/zabbix/zabbix_agentd.psk
+echo "190bf45a3023b2f85a479c5293e421d2c85cfdf7f1f6f46bce869ae61732df2a" > /etc/zabbix/zabbix_agentd.psk
 
 echo "${green}============================================${reset}"
 echo "${green}pre-shared keys added${reset}"
