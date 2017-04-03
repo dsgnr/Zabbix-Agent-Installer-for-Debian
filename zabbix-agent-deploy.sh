@@ -27,7 +27,7 @@ echo "${green}============================================${reset}"
 echo "${green}Add allowed hosts${reset}"
 echo "${green}============================================${reset}"
 
-sed -i '95s|Server=127.0.0.1|Server=127.0.0.1,mon.wessex.cloud|' /etc/zabbix/zabbix_agentd.conf
+sed -i '95s|Server=127.0.0.1|Server=127.0.0.1,zabbix.handsoff.local|' /etc/zabbix/zabbix_agentd.conf
 
 echo "${green}============================================${reset}"
 echo "${green}Adding pre-shared key${reset}"
